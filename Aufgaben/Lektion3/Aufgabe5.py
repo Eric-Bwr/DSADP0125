@@ -1,19 +1,18 @@
 import random
 
-
 if __name__ == '__main__':
     numberOfIterations = 100000
     amountWon = 0
     amountSpent = 0  # Will be equal to the iteration count but one can actually
     # put in prices and costs thus this is more future-proof
 
+    # Choose 6 random numbers out of 49
+    # Sample is used because it makes sure that there are no duplicates
+    # The winning numbers
+    numbersWinning = random.sample(range(1, 50), 6)
     for _ in range(numberOfIterations):
-        # Choose 6 random numbers out of 49
-        # For the player
+        # And for the player
         numbersForPlayer = random.sample(range(1, 50), 6)
-        # And the winning numbers
-        numbersWinning = random.sample(range(1, 50), 6)
-
         # This just computes the amount of duplicates in the list to see if a player got a winning number
         matchingNumbers = 0
         for i in range(len(numbersForPlayer)):
