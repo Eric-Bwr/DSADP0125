@@ -13,7 +13,7 @@ if __name__ == '__main__':
     for i in range(numberOfNormalLists):
         normals = np.random.normal(loc, scale, numberOfNormalPerList)  # Generate numberOfNormalPerList´s normals
         normalsList.append(normals)
-        averageOfNormals.append(np.sum(normals) / numberOfNormalPerList) # Prepare the average
+        averageOfNormals.append(np.sum(normals) / numberOfNormalPerList)  # Prepare the average
 
     print(averageOfNormals)  # Average per individual normal
     print(np.sum(averageOfNormals) / numberOfNormalLists)  # Should be close to loc / mu
