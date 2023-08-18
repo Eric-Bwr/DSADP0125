@@ -1,0 +1,92 @@
+<lager>
+    <artikel artikelnummer="001">
+        <bezeichnung>T-Shirt</bezeichnung>
+        <farbe>Blau</farbe>
+        <preis>19.99</preis>
+        <bestand>50</bestand>
+    </artikel>
+    <artikel artikelnummer="002">
+        <bezeichnung>Hose</bezeichnung>
+        <farbe>Schwarz</farbe>
+        <preis>34.95</preis>
+        <bestand>30</bestand>
+    </artikel>
+    <artikel artikelnummer="003">
+        <bezeichnung>Schuhe</bezeichnung>
+        <farbe>Weiß</farbe>
+        <preis>59.99</preis>
+        <bestand>20</bestand>
+    </artikel>
+    <artikel artikelnummer="004">
+        <bezeichnung>Jacket</bezeichnung>
+        <farbe>Grau</farbe>
+        <preis>79.99</preis>
+        <bestand>15</bestand>
+    </artikel>
+    <artikel artikelnummer="005">
+        <bezeichnung>Jeans</bezeichnung>
+        <farbe>Blau</farbe>
+        <preis>39.95</preis>
+        <bestand>40</bestand>
+    </artikel>
+    <artikel artikelnummer="006">
+        <bezeichnung>Socken</bezeichnung>
+        <farbe>Weiß</farbe>
+        <preis>5.99</preis>
+        <bestand>100</bestand>
+    </artikel>
+    <artikel artikelnummer="007">
+        <bezeichnung>Mantel</bezeichnung>
+        <farbe>Schwarz</farbe>
+        <preis>89.99</preis>
+        <bestand>10</bestand>
+    </artikel>
+    <artikel artikelnummer="008">
+        <bezeichnung>Shorts</bezeichnung>
+        <farbe>Grün</farbe>
+        <preis>24.99</preis>
+        <bestand>25</bestand>
+    </artikel>
+    <artikel artikelnummer="009">
+        <bezeichnung>Stiefel</bezeichnung>
+        <farbe>Braun</farbe>
+        <preis>69.95</preis>
+        <bestand>18</bestand>
+    </artikel>
+    <artikel artikelnummer="010">
+        <bezeichnung>Kleid</bezeichnung>
+        <farbe>Rosa</farbe>
+        <preis>49.99</preis>
+        <bestand>22</bestand>
+    </artikel>
+    <artikel artikelnummer="011">
+        <bezeichnung>Mütze</bezeichnung>
+        <farbe>Blau</farbe>
+        <preis>9.99</preis>
+        <bestand>75</bestand>
+    </artikel>
+    <artikel artikelnummer="012">
+        <bezeichnung>Schal</bezeichnung>
+        <farbe>Rot</farbe>
+        <preis>14.95</preis>
+        <bestand>60</bestand>
+    </artikel>
+    <artikel artikelnummer="013">
+        <bezeichnung>Handtasche</bezeichnung>
+        <farbe>Schwarz</farbe>
+        <preis>29.99</preis>
+        <bestand>30</bestand>
+    </artikel>
+    <artikel artikelnummer="014">
+        <bezeichnung>Sonnenbrille</bezeichnung>
+        <farbe>Gold</farbe>
+        <preis>12.99</preis>
+        <bestand>50</bestand>
+    </artikel>
+    <artikel artikelnummer="015">
+        <bezeichnung>Gürtel</bezeichnung>
+        <farbe>Braun</farbe>
+        <preis>7.95</preis>
+        <bestand>80</bestand>
+    </artikel>
+</lager>
