@@ -2,7 +2,7 @@ import numpy as np
 
 
 def generateAssetMatrix():
-    m = n = 1000
+    m = n = 2
     return np.random.uniform(0, 100000, size=(m, n))  # generate M with m = n = 1000
 
 
@@ -35,7 +35,7 @@ def findMinMaxAssets(chain):
 
 def simulate():
     blockChain = []
-    numTransactions = 100
+    numTransactions = 2
     assetsPerTransaction = 2
 
     for i in range(numTransactions):
@@ -46,6 +46,8 @@ def simulate():
 
         block = generateBlock(T)
         blockChain.append(block)
+        print(block)
+        print("")
 
     minAsset, maxAsset = findMinMaxAssets(blockChain)
 
