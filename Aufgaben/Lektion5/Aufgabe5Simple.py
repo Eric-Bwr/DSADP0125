@@ -3,7 +3,7 @@ import numpy as np
 
 def generateAssetMatrix():
     m = n = 2
-    return np.random.uniform(0, 100000, size=(m, n))  # generate M with m = n = 1000
+    return np.random.uniform(0, 100000, size=(m, n))  # generate M with m = n = 2
 
 
 def generateBlock(transactions):
